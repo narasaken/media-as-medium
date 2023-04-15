@@ -144,3 +144,104 @@ hr{
     bottom: 14rem;
     opacity: 0.5;
 }
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 160px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.5;
+    margin-top: 88px;
+}
+
+.footer-label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 52px;
+    margin-right: 160px;
+    color: #081E34;
+    position:static;
+}
+
+.author2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 160px;
+    margin-top: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.date2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 160px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.header2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 76px;
+}
+
+.article-content2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.article-img2{
+    width: 1120px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+.subheader{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 160px;
+    margin-top: 70px;
+}
+
+.description2{
+    margin-left: 160px;
+    margin-top: 24px;
+    margin-bottom: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    width: 1120px;
+}

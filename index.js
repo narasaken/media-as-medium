@@ -18,9 +18,6 @@ topics.classList.add('popular-topics');
 // async function getTopStories() 
 // url = 'https://api.nytimes.com/svc/mostpopular/v2/shared/1/facebook.json?api-key=hc63TLTAw4QwqD4VEV4ceWl5Dr3fA3Uc';
 
-
-// async function getTopStories() {
-
 async function getTopStories() {
     try {
         const response = await fetch('https://api.nytimes.com/svc/mostpopular/v2/shared/1/facebook.json?api-key=hc63TLTAw4QwqD4VEV4ceWl5Dr3fA3Uc');
@@ -67,7 +64,18 @@ async function getTopStories() {
 }
       
 getTopStories();
-   
+
 topics.addEventListener('click', () => {
-    window.location.href = 'https://www.example.com/new-page';
-  });
+    window.location.href = './page2.html';
+});
+
+//Create footer
+const footer = document.createElement("p");
+document.body.appendChild(footer);
+footer.classList.add('footer-label'); 
+footer.innerText = "Credits: photos from Unsplash.com, icons from Icons8, graphics from craftwork.design.";
+
+const footer2 = document.createElement("p");
+document.body.appendChild(footer2);
+footer2.classList.add('footer-label'); 
+footer2.innerText = "Made with ✨❤️ at nFactorial in 2022.";
