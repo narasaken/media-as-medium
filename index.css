@@ -1,0 +1,25 @@
+*{
+    margin-left: 160px;
+}
+
+.logo {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+h1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
