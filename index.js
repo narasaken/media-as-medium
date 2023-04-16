@@ -65,7 +65,8 @@ async function getTopStories() {
       
 getTopStories();
 
-topics.addEventListener('click', () => {
+const topicOne = document.getElementsByClassName('popular-topics')[0];
+topicOne.addEventListener('click', () => {
     window.location.href = './page2.html';
 });
 

@@ -202,28 +202,17 @@ hr{
     font-size: 34px;
     display: flex;
     align-items: center;
-    margin-left: 160px;
+    justify-content: center;
     margin-top: 76px;
-}
-
-.article-content2{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-    margin-left: 160px;
 }
 
 .article-img2{
     width: 1120px;
     height: 480px;
     display: flex;
-    align-items: center;
-    margin-left: 160px;
+    justify-content: center;
     margin-top: 70px;
+    margin-left: 220px;
 }
 
 .subheader{
@@ -231,17 +220,18 @@ hr{
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 70px;
 }
 
 .description2{
-    margin-left: 160px;
     margin-top: 24px;
     margin-bottom: 440px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    width: 1120px;
+    margin-left: 220px;
 }
